@@ -1,1 +1,38 @@
+:root {
+  --bg-main: #0b0b0e;
+  --bg-card: #14141a;
+  --text-main: #eaeaea;
+  --text-muted: #9b9b9b;
+  --accent: #e10600;
+  --radius: 14px;
+  --transition: 0.3s ease;
+  --font-main: "Inter", system-ui;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* عناصر مشتركة */
+.container {
+  width: 92%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 12px 22px;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
 
