@@ -1,31 +1,76 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dan | Personal Website</title>
 
-  <!-- CSS المشترك -->
+  <!-- CSS مشترك -->
   <link rel="stylesheet" href="css/00-reset.css">
   <link rel="stylesheet" href="css/01-global.css">
 
-  <!-- CSS خاص -->
+  <!-- CSS خاص بالصفحة -->
   <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
 
-<header class="hero">
-  <div class="container">
-    <h1>اسمك هنا</h1>
-    <p>واجهة مظلمة – احترافية – متحركة</p>
-    <button class="btn">ابدأ</button>
-  </div>
-</header>
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
 
-<script src="js/00-core.js"></script>
-<script src="js/01-ui.js"></script>
-<script src="js/home.js"></script>
+    <div class="hero-content container">
+      <span class="hero-badge">Personal Brand</span>
+
+      <h1 class="hero-title">
+        بناء هوية رقمية  
+        <span>احترافية</span>
+      </h1>
+
+      <p class="hero-desc">
+        موقع شخصي بتصميم مظلم، أنيق، ومبني بعقلية المطورين المحترفين.
+      </p>
+
+      <div class="hero-actions">
+        <a href="pages/about.html" class="btn">من أنا</a>
+        <a href="pages/store.html" class="btn btn-outline">المتجر</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="features container">
+    <div class="feature">
+      <h3>تصميم فخم</h3>
+      <p>ستايل مظلم سينمائي يليق بالبراند الشخصي</p>
+    </div>
+
+    <div class="feature">
+      <h3>أداء عالي</h3>
+      <p>بدون مكتبات – سرعة وتحكم كامل</p>
+    </div>
+
+    <div class="feature">
+      <h3>قابل للتوسع</h3>
+      <p>Dashboard – متجر – API – كل شيء جاهز</p>
+    </div>
+  </section>
+
+  <!-- ===== Call To Action ===== -->
+  <section class="cta">
+    <div class="container">
+      <h2>جاهز للانطلاق؟</h2>
+      <p>ابدأ ببناء حضورك الرقمي الآن</p>
+      <a href="pages/login.html" class="btn">إنشاء حساب</a>
+    </div>
+  </section>
+
+  <!-- JS مشترك -->
+  <script src="js/00-core.js"></script>
+  <script src="js/01-ui.js"></script>
+
+  <!-- JS خاص -->
+  <script src="js/home.js"></script>
 
 </body>
 </html>
-
