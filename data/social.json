@@ -1,1 +1,33 @@
+[
+  {
+    "name": "YouTube",
+    "count": "600+",
+    "url": "https://youtube.com",
+    "icon": "▶"
+  },
+  {
+    "name": "Instagram",
+    "count": "100+",
+    "url": "https://instagram.com",
+    "icon": "◎"
+  },
+  {
+    "name": "TikTok",
+    "count": "1K+",
+    "url": "",
+    "icon": "↗"
+  },
+  {
+    "name": "Twitter",
+    "count": "",
+    "url": "",
+    "icon": "✕"
+  },
+  {
+    "name": "Twitch",
+    "count": "",
+    "url": "",
+    "icon": "🎮"
+  }
+]
 
